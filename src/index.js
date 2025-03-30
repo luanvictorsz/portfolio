@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import Header from "./Header"
 import Home from './Home';
+import App from './Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

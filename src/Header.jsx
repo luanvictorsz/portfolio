@@ -1,11 +1,10 @@
-import { useState, useEffect } from 'react'; // Adicione isso no topo
+import { useState, useEffect } from 'react'; 
 import icon from "./images/Icon.png";
 import './styles/Header.css';
 
-function App() {
+function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Fecha o menu ao redimensionar a tela (opcional)
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 768) setIsMenuOpen(false);
@@ -47,4 +46,4 @@ function App() {
   );
 }
 
-export default App;
+export default Header;
